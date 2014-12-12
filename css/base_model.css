@@ -60,10 +60,7 @@ a {
          -moz-border-radius:0px;
          -webkit-border-radius:0px;
     }
-#HomeMainGraphic {
-	height: auto;
-	width: 100%;
-}
+
 .body footer{
 	background-color: #FFF;
 	height: 80px;
@@ -91,17 +88,13 @@ a {
 
 body {
 	/*You can use any kind of background here.*/
-	
-	background: url(../images/Home_Page_Graphic.png) no-repeat;
-	
+
 	background-color: #036;
 }
 canvas {
 	display: block;
-	width: 100%;
-
-	
-	
+	width: 100%;	
+	background: url(../images/Home_Page_Graphic.png) no-repeat;
 }
 
 #containingDiv { 
