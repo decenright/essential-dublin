@@ -65,36 +65,37 @@ a {
 	background-color: #FFF;
 	height: 80px;
 	width: 100%;
-}
-.body footer copyright {
-	padding-top: 20px;
-	padding-left: 50px;
 	text-align: center;
+	font-family: "Verdana", Times, sans-serif;
+	color: #336699;
+	padding-top: 45px;
 }
+
+
 .body footer img {
 	float: right;
 	padding-right: 20px;
-	height: 50px;
+	height: 35px;
 }
-
-
-
-
-
 
 
 /*Simple reset*/
 * {margin: 0; padding: 0;}
 
 body {
-	/*You can use any kind of background here.*/
-
 	background-color: #036;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	text-decoration: underline;
+	text-align: center;
+	color: white;
 }
 canvas {
 	display: block;
 	width: 100%;	
 	background: url(../images/Home_Page_Graphic.png) no-repeat;
+	background-size: 100% 100%;
 }
 
 #containingDiv { 
@@ -104,4 +105,12 @@ canvas {
   position: absolute; 
   top: 0px;
   left: 0px;
-} 
+  
+} .tagline1 {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 18px;
+	font-style: normal;
+	text-decoration: overline;
+	text-align: center;
+	color:white;
+}
